@@ -4,7 +4,7 @@
 
 <h1>Network Security Groups (NSGs) and Inspecting Network Protocols</h1>
 
-<p>In this lab, I demonstrated creating virtual machines in Microsoft Azure, analyzing network traffic with WireShark, and configuring Network Security Groups (NSGs) to manage traffic flow. This hands-on experience deepened my understanding of network protocols and security rules in a cloud environment.</p>
+<p>In this lab, I demonstrated creating virtual machines in Microsoft Azure, analysing network traffic using WireShark, and configuring Network Security Groups (NSGs) to manage traffic flow. This hands-on experience deepened my understanding of network protocols and security rules in a cloud environment.</p>
 
 <h2>Part 1: Creating Virtual Machines</h2>
 
@@ -15,15 +15,15 @@
 5. Finally, I made sure both VMs were in the same Vnet and Subnet.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2f710177-e461-4681-97f7-666466b38e3b" alt="Creating Virtual Machines" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/2f710177-e461-4681-97f7-666466b38e3b">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d8ac240d-74f5-4cde-8943-31604d1a561b" alt="Creating Virtual Machines" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/d8ac240d-74f5-4cde-8943-31604d1a561b">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9bd3848b-8671-4124-b8b9-96d693843d38" alt="Creating Virtual Machines" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/9bd3848b-8671-4124-b8b9-96d693843d38">
 </p>
 
 <h2>Part 2: Observing ICMP Traffic</h2>
@@ -39,18 +39,18 @@
 
 <p align="center">
   
-  <img src="https://github.com/user-attachments/assets/e94ff4f2-ef14-48ec-8a73-9a61d80b02a1" alt="Observing ICMP Traffic" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/e94ff4f2-ef14-48ec-8a73-9a61d80b02a1">
 </p>
 
 
 <p align="center">
   
-  <img src="https://github.com/user-attachments/assets/361c493d-d565-4474-a180-03109f51accf" alt="Observing ICMP Traffic" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/361c493d-d565-4474-a180-03109f51accf">
 </p>
 
 <p align="center">
   
-  <img src="https://github.com/user-attachments/assets/ca8f41bf-bc62-4583-b7ae-a1fa3287e804" alt="Observing ICMP Traffic" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/ca8f41bf-bc62-4583-b7ae-a1fa3287e804">
 </p>
 
 
@@ -64,20 +64,20 @@
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f8310d70-9805-466a-9ce2-c8aedc42eb42" alt="Configuring NSGs" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/f8310d70-9805-466a-9ce2-c8aedc42eb42">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/385c1551-1f6c-46dd-9f0b-5129b8c8e5fa" alt="Configuring NSGs" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/385c1551-1f6c-46dd-9f0b-5129b8c8e5fa">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/52cc21f5-d0b5-4997-88ef-c777c2423c26" alt="Configuring NSGs" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/52cc21f5-d0b5-4997-88ef-c777c2423c26">
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d793a819-4bed-440e-a359-cbbcbcbdde97" alt="Configuring NSGs" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/d793a819-4bed-440e-a359-cbbcbcbdde97">
 </p>
 
 
@@ -100,7 +100,7 @@ I explored different protocols and observed their behavior using WireShark:
   <li>In WireShark, I monitored the encrypted traffic as I executed commands within the Ubuntu VM via SSH. The capture confirmed that SSH provides a secure and encrypted channel for communication.</li>
 </ul>
 <p align="center">
- <img src="https://github.com/user-attachments/assets/92a3e7ce-1267-4ad0-b943-fcced93c8d0b" alt="Observing Protocol Traffic" width="80%">
+ <img width="1440" src="https://github.com/user-attachments/assets/92a3e7ce-1267-4ad0-b943-fcced93c8d0b">
 </p>
 
 
@@ -114,17 +114,17 @@ I explored different protocols and observed their behavior using WireShark:
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b435f652-5b9f-4e18-b848-2dde78d11eb2" alt="Observing Protocol Traffic" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/b435f652-5b9f-4e18-b848-2dde78d11eb2">
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/06da3ba4-f452-451d-906b-dd6eb685ae22" alt="Observing Protocol Traffic" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/06da3ba4-f452-451d-906b-dd6eb685ae22">
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cb72735e-2e2e-4cad-99cb-b71ed4d14f4e" alt="Observing Protocol Traffic" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/cb72735e-2e2e-4cad-99cb-b71ed4d14f4e">
 </p>
 
 
@@ -134,8 +134,8 @@ I explored different protocols and observed their behavior using WireShark:
 - **DNS Traffic:** 
   - Filtering for DNS traffic in WireShark, I used `nslookup` to query DNS records for google.com observing the queries and responses.
  
-  <p align="center">
-  <img src="https://github.com/user-attachments/assets/0023b762-b965-4bfe-9c21-f2d94f1cee60" alt="Observing Protocol Traffic" width="80%">
+<p align="center">
+  <img width="1440" src="https://github.com/user-attachments/assets/0023b762-b965-4bfe-9c21-f2d94f1cee60">
 </p>
 
 
@@ -146,7 +146,7 @@ I explored different protocols and observed their behavior using WireShark:
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6caede60-93d3-4d91-a7e4-5353354f12ed" alt="Observing Protocol Traffic" width="80%">
+  <img width="1440" src="https://github.com/user-attachments/assets/6caede60-93d3-4d91-a7e4-5353354f12ed">
 </p>
 
 
@@ -155,4 +155,4 @@ I explored different protocols and observed their behavior using WireShark:
 
 <h2>Conclusion</h2>
 
-<p>By completing this lab, I gained experience in deploying VMs, analyzing network traffic, and configuring Network Security Groups in Azure. I also deepened my understanding of network protocols such as ICMP, SSH, DHCP, DNS, and RDP while using WireShark to inspect and analyse these protocols.</p>
+<p>By completing this lab, I gained experience in deploying VMs, analysing network traffic, and configuring Network Security Groups in Azure. I also deepened my understanding of network protocols such as ICMP, SSH, DHCP, DNS, and RDP while using WireShark to inspect and analyse these protocols.</p>
